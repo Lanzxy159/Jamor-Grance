@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header">
+    <h1>
+        Welcome to Jamor Garnce
+    </h1>
+
+
+    <h2>
+        Price
+    </h2>
+    </div>
+    
+    <div class="item">
+        <ul>
+            <li>
+                <p>T-shirt - 20</p>
+            </li>
+            <li>
+                <p>Pants - 50</p>
+            </li>
+            <li>
+                <p>Cap - 50</p>
+            </li>
+            
+        </ul>
+    </div>
+
+    <button type="button" id="add_item">Add Item</button>
+    <div class="Items">
+        <h2>Choice</h2>
+        <select name="" class="item_select">
+        <option value="T-Shirt">T-shirt</option>
+        <option value="Pants">Pants</option>
+        <option value="Cap">Cap</option>
+        </select>
+    </div>
+    <div class="">
+        <h2>Quantity:</h2>
+        <form id="quantity" action="/action_page.php">
+            <input type="text" class="item_quantity" name="">        
+        </form>
+       
+    </div>
+    <button type="button" id="button_finalize">Finalize order</button>
+    <div class="payment">
+        <h2>Cash:</h2>
+        <form action="/action_page.php">
+            <input type="text" id="payment" name="">
+            <button type="button" id="Payment_button">Payment</button>
+        </form>
+          
+    </div>
+
+    <div id="example">
+
+    </div>
+
+
+<script src="app.js"></script>
+</body>
+
+</html>
